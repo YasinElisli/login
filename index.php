@@ -9,8 +9,8 @@
     <div class="main">
       <form action="check.php" method="POST">
         <ul>
-          <li><span>Login</span><input class="login" type="text" name="username"/></li>
-          <li><span>Parol</span><input class="parol" type="password" name="parol" /></li>
+          <li><span class="log">Login</span><input class="login" type="text" name="username"/></li>
+          <li><span class="log">Parol</span><input class="parol" type="password" name="parol" /></li>
           <li><input type="submit" value="Giris" /></li>
         </ul>
       </form>
