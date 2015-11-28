@@ -10,7 +10,7 @@ $sorgu = $conn-> query($sql);
  if (isset($loginn) && isset($parol)) {
    if (empty($loginn) || empty($parol)) {
     echo "<h1>Xanalari bos buraxmayin</h1>";
-  }
+  }/*COMMENT to test pull request*/
   elseif(!empty($loginn) && !empty($parol)) {
     $user = $sorgu->fetch_assoc();
      if($user != null){
